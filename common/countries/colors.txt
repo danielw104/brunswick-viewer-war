@@ -1,0 +1,22 @@
+
+#Custom colours start here
+SWE = {
+	color = rgb { 0 78 184 }
+	color_ui = rgb { 0 78 184 }
+}
+EUR = {
+	color = rgb { 255 255 0 }
+	color_ui = rgb { 255 255 0 }
+}
+TUR = {
+	color = rgb { 0 93 0 }
+	color_ui = rgb { 0 93 0 }
+}
+SPR = {
+	color = rgb { 210 173 95 }
+	color_ui = rgb { 210 173 95 }
+}
+GER = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}

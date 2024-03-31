@@ -1,0 +1,116 @@
+characters = {	universe_phil = {
+		name = universe_phil
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/SWE/YvtqHKyb-1289.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = universe_phil
+			allowed = {
+				original_tag = SWE
+			}
+			traits = { autocratic_imperialist army_chief_defensive_3 navy_naval_air_defense_3 staunch_monarchist}
+		}
+	}
+	universe_phil = {
+		name = universe_phil
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/SWE/YvtqHKyb-1289.dds"
+			}
+		}
+		advisor = {
+			slot = theorist
+			ledger = army
+			idea_token = universe_phil
+			allowed = {
+				original_tag = SWE
+			}
+			traits = { military_theorist blitzkrieg_theorist}
+		}
+	}
+	universe_phil = {
+		name = universe_phil
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/SWE/YvtqHKyb-1289.dds"
+			}
+		}
+		advisor = {
+			slot = theorist
+			ledger = navy
+			idea_token = universe_phil
+			allowed = {
+				original_tag = SWE
+			}
+			traits = { naval_theorist}
+		}
+	}
+	universe_phil = {
+		name = universe_phil
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/SWE/YvtqHKyb-1289.dds"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = universe_phil
+			allowed = {
+				original_tag = SWE
+			}
+			traits = { army_chief_defensive_3 army_chief_offensive_2}
+		}
+	}
+	universe_phil = {
+		name = universe_phil
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/SWE/YvtqHKyb-1289.dds"
+			}
+		}
+		advisor = {
+			slot = navy_chief
+			idea_token = universe_phil
+			allowed = {
+				original_tag = SWE
+			}
+			traits = { navy_chief_naval_aviation_3 navy_chief_commerce_raiding_1 navy_chief_reform_2 navy_chief_maneuver_2}
+		}
+	}
+	universe_phil = {
+		name = universe_phil
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/SWE/YvtqHKyb-1289.dds"
+			}
+		}
+		advisor = {
+			slot = air_chief
+			idea_token = universe_phil
+			allowed = {
+				original_tag = SWE
+			}
+			traits = { air_chief_reform_1 air_chief_safety_3 air_chief_night_operations_2 air_chief_ground_support_3 air_chief_all_weather_2}
+		}
+	}
+	universe_phil = {
+		name = universe_phil
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/SWE/YvtqHKyb-1289.dds"
+			}
+		}
+		advisor = {
+			slot = high_command
+			ledger = army
+			idea_token = universe_phil
+			allowed = {
+				original_tag = SWE
+			}
+			traits = { army_chief_defensive_3 army_chief_offensive_1 army_chief_drill_1 army_chief_reform_3 army_chief_organizational_3 army_chief_planning_3 army_chief_morale_1}
+		}
+	}
+}

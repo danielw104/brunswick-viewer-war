@@ -1,0 +1,25 @@
+state = {
+	id = 498
+	name = "STATE_498"
+	manpower = 2582000
+	state_category = town
+	resources = {
+		tungsten = 3
+	}
+	history = {
+		buildings = {
+			infrastructure = 3 
+			industrial_complex = 1 
+			
+
+		}
+		victory_points = {
+			10933 3 
+		}
+	}
+	provinces = {
+		2175 10933 13273
+	}
+	local_supplies = 0.0
+
+}

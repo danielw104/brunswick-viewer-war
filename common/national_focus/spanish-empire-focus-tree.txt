@@ -1,0 +1,102 @@
+focus_tree = {
+	id = spanish-empire-focus-tree
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SPR
+		}
+	}
+	#Spanish Empire in Crisis
+	focus = {
+		id = SPR_spanish_empire_in_crisis
+		icon = GFX_SPR_spanish_empire_in_crisis-88
+		x = 4
+		y = 1
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
+		}
+		ai_will_do = { factor = 100 }
+		available = {
+			country_exists = SPR
+			
+			
+		}
+		bypass = {
+			country_exists = POR
+		}
+		completion_reward = {
+			add_political_power = 200
+			
+			
+		}
+	}
+
+	#Allow Reforms
+	focus = {
+		id = SPR_allow_reforms
+		icon = GFX_goal_unknown
+		x = 6
+		y = 3
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SPR_a_third_option  }
+		ai_will_do = { factor = 100 }
+		completion_reward = {
+			add_stability = 8.5
+			
+			
+			political_power_growth > 8
+			
+			
+			
+			
+		}
+	}
+
+	#A Third Option
+	focus = {
+		id = SPR_a_third_option
+		icon = GFX_focus_generic_treaty
+		x = 6
+		y = 2
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SPR_spanish_empire_in_crisis  }
+		mutually_exclusive = { focus = SPR_put_down_the_protesters_with_force  } mutually_exclusive = { focus = SPR_concede_to_their_demands  }
+	}
+
+	#Put Down the Protesters with Force
+	focus = {
+		id = SPR_put_down_the_protesters_with_force
+		icon = GFX_focus_spr_crush_the_revolution
+		x = 2
+		y = 2
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SPR_spanish_empire_in_crisis  }
+	}
+
+	#Concede to Their Demands
+	focus = {
+		id = SPR_concede_to_their_demands
+		icon = GFX_focus_generic_befriend_portugal
+		x = 4
+		y = 2
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SPR_spanish_empire_in_crisis  }
+		mutually_exclusive = { focus = SPR_put_down_the_protesters_with_force  }
+	}
+
+}

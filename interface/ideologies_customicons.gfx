@@ -1,0 +1,13 @@
+spriteTypes = {	##Icon For: Imperial Unionism
+	SpriteType = { 
+		name = "GFX_ideology_imperial_unionism_icon_group"
+		texturefile = "gfx/interface/ideologies/imperial_unionism_icon.dds"
+	}
+
+	##Icon For: Constitutional Monarchy
+	SpriteType = { 
+		name = "GFX_ideology_constitutional_monarchy_icon_group"
+		texturefile = "gfx/interface/ideologies/constitutional_monarchy_icon.dds"
+	}
+
+}

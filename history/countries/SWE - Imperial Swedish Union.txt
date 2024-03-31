@@ -1,0 +1,45 @@
+﻿oob = "SWE_1936"
+capital = 141
+set_research_slots = 3
+set_stability = 1
+set_war_support = 0.8
+set_convoys = 5
+
+
+add_ideas = {
+	limited_conscription
+	civilian_economy
+	imperial_tanks
+}
+
+	recruit_character = universe_phil
+	recruit_character = universe_phil
+	recruit_character = universe_phil
+	recruit_character = universe_phil
+	recruit_character = universe_phil
+	recruit_character = universe_phil
+	recruit_character = universe_phil
+
+#Starting tech
+set_technology = {
+	basic_ship_hull_heavy = 1
+	basic_ship_hull_cruiser = 1
+}
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = imperial_unionism
+	last_election = "-"
+	election_frequency = 0
+	elections_allowed = no
+}
+set_popularities = {
+	imperial_unionism = 80
+	constitutional_monarchy = 20
+	monarchism = 0
+}
+
+recruit_character = gustaf_v
+recruit_character = gustaf_v
+recruit_character = gustaf_v
+

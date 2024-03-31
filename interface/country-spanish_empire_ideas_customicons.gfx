@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Jaxón "Humble Negotiator" Ramazona
+	SpriteType = { 
+		name = "DpbikThg-122523"
+		texturefile = "gfx/interface/ideas/SPR/DpbikThg-122523.dds"
+	}
+
+ 
+ }

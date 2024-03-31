@@ -1,0 +1,15 @@
+spriteTypes = { 
+	##Icon For: Instability in the Empire
+	SpriteType = { 
+		name = "GFX_idea_InE_instability_in_the_empire-2117"
+		texturefile = "gfx/interface/ideas/instability-in-the-empire-ideas/InE_instability_in_the_empire-2117.dds"
+	}
+
+	##Icon For: Oppressing Minorities
+	SpriteType = { 
+		name = "GFX_idea_InE_oppressing_minorities-1236"
+		texturefile = "gfx/interface/ideas/instability-in-the-empire-ideas/InE_oppressing_minorities-1236.dds"
+	}
+
+ 
+ }

@@ -1,0 +1,23 @@
+state = {
+	id = 555
+	name = "STATE_555"
+	manpower = 15000
+	state_category = tiny_island
+	history = {
+		buildings = {
+			infrastructure = 2
+			1399 = {
+				naval_base = 3
+
+			}
+
+		}
+		owner = EUR
+		controller = EUR
+	}
+	provinces = {
+		1399 1515 13037 
+	}
+	local_supplies = 0.0
+
+}

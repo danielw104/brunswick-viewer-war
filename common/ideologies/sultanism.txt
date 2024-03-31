@@ -1,0 +1,20 @@
+ideologies = {
+	sultanism = {
+		types = {
+			radical_sultanism = {  }
+			moderate_sultanism = {  }
+		}
+		dynamic_faction_names = {
+		}
+		color = { 0 67 0 }
+		can_collaborate = yes
+		faction_modifiers = {
+		}
+		rules = {
+			can_puppet = yes
+		}
+		modifiers = {
+		}
+		ai_neutral = yes
+	}
+}

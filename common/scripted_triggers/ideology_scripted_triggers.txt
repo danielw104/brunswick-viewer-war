@@ -1,0 +1,32 @@
+
+is_enemy_ideology = {
+	OR = {
+		AND = {
+			has_government = eurasianism
+			ROOT = {
+				OR = {
+					has_government = sultanism
+					has_government = imperial_unionism
+				}
+			}
+		}
+		AND = {
+			has_government = imperial_unionism
+			ROOT = {
+				OR = {
+					has_government = eurasianism
+					has_government = sultanism
+				}
+			}
+		}
+		AND = {
+			has_government = sultanism
+			ROOT = {
+				OR = {
+					has_government = imperial_unionism
+					has_government = eurasianism
+				}
+			}
+		}
+	}
+}

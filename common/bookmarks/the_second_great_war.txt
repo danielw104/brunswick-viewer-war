@@ -1,0 +1,23 @@
+bookmarks = {
+	bookmark = {
+		name = "the_second_great_war_name"
+		desc = "the_second_great_war_desc"
+		date = 1936.1.1.12
+	picture = "the_second_great_war-629250"
+		default_country = "GER"
+		default = yes
+		"SWE" = {
+			history = "the_second_great_war_SWE"
+			ideology = Imperial Unionism
+			minor = yes
+		}
+		"EUR" = {
+			history = "the_second_great_war_EUR"
+			ideology = Eurasianism
+		}
+		"SPR" = {
+			history = "the_second_great_war_SPR"
+			ideology = Constitutional Monarchy
+		}
+	}
+}

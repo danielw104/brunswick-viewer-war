@@ -1,0 +1,30 @@
+ideas = {
+	country = {
+
+		InE_instability_in_the_empire = {
+			picture = InE_instability_in_the_empire-2117
+			modifier = {
+				political_power_daily > -10%
+
+weekly_manpower = -10%
+
+Constitutional_Monarchy_drift = -0.5
+
+
+			}
+		}
+
+		InE_oppressing_minorities = {
+			picture = InE_oppressing_minorities-1236
+			modifier = {
+				resistance_growth_on_our_occupied_states = 0.8
+
+political_power_growth > -10%
+
+compliance_gain = -5%
+
+
+			}
+		}
+	}
+}

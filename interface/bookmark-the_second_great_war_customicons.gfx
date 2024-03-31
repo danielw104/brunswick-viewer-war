@@ -1,0 +1,7 @@
+spriteTypes = { 
+	##Icon For: The Second Great War
+	SpriteType = { 
+		name = "the_second_great_war-629250"
+		texturefile = "gfx/interface/bookmarks/the_second_great_war-bookmark/the_second_great_war-629250.dds"
+	}
+

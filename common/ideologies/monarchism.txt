@@ -1,0 +1,27 @@
+ideologies = {
+	monarchism = {
+		types = {
+			absolute_monarchy = { can_be_randomly_selected = no }
+			federal_monarchy = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {
+			"faction_monarchism_central_powers"
+			"faction_monarchism_federal_monarchy"
+		}
+		color = { 194 180 197 }
+		can_host_government_in_exile = yes
+		faction_modifiers = {
+		}
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+		}
+		modifiers = {
+		}
+		ai_neutral = yes
+	}
+}

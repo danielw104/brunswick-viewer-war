@@ -1,0 +1,35 @@
+ideas = {
+	mobilization_laws = {
+}
+	economy = {
+}
+	political_advisor = {
+		jaxonhumblenegotiatorramazona = {
+			allowed = {
+				tag = SPR
+			}
+			traits = { tenacious_negotiator constitutional_monarch popular_figurehead2}
+			picture = "DpbikThg-122523"
+		}
+}
+	tank_manufacturer = {
+}
+	naval_manufacturer = {
+}
+	aircraft_manufacturer = {
+}
+	materiel_manufacturer = {
+}
+	industrial_concern = {
+}
+	theorist = {
+}
+	army_chief = {
+}
+	navy_chief = {
+}
+	air_chief = {
+}
+	high_command = {
+}
+}

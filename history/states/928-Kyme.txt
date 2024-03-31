@@ -1,0 +1,28 @@
+state = {
+	id = 928
+	name = "STATE_928"
+	manpower = 43457
+	state_category = rural
+	history = {
+		victory_points = { 
+			3061 2
+		}
+		victory_points = { 
+			9183 1
+		}
+		victory_points = { 
+			6082 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SWE
+		owner = SWE
+		controller = SWE
+	}
+	provinces = {
+		52 139 3061 6082 6186 9183 11056 13105 
+	}
+	local_supplies = 0.0
+
+}

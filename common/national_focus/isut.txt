@@ -1,0 +1,193 @@
+focus_tree = {
+	id = isut
+	continuous_focus_position = { x = -40 y = 1050 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SWE
+		}
+	}
+	#Improve Quality of Live
+	focus = {
+		id = SWE_improve_quality_of_live
+		icon = GFX_goal_generic_improve_relations
+		x = 5
+		y = 0
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		ai_will_do = { factor = 100 }
+		available = {
+			has_civil_war = no
+			
+			
+		}
+		bypass = {
+			has_stability > 0.9
+			
+			
+		}
+		completion_reward = {
+			add_stability = 0.4
+			
+			
+		}
+	}
+
+	#Improve Healthcare
+	focus = {
+		id = SWE_improve_healthcare
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 5
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = SWE_improve_quality_of_live  }
+		ai_will_do = { factor = 100 }
+		bypass = {
+			num_researched_technologies > 10
+			
+			
+		}
+		completion_reward = {
+			add_research_slot = 1
+			
+			
+			add_building_construction = {
+			    type = civilian_factory
+			    level = 5
+			    instant_build = yes
+			}
+			
+			
+		}
+	}
+
+	#The Swedish Navy
+	focus = {
+		id = SWE_the_swedish_navy
+		icon = GFX_focus_generic_navy_battleship2
+		x = 5
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = SWE_improve_healthcare  }
+		ai_will_do = { factor = 100 }
+		completion_reward = {
+			add_tech_bonus = {
+			    bonus = 0.5
+			    uses = 1
+			    category = marine
+			}
+			
+			
+			
+		}
+	}
+
+	#Neutrality
+	focus = {
+		id = SWE_neutrality
+		icon = GFX_SWE_neutrality-270
+		x = 7
+		y = 6
+		cost = 2
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SWE_the_swedish_navy  }
+		mutually_exclusive = { focus = SWE_the_denmark_treaty  }
+		ai_will_do = { factor = 30 }
+		completion_reward = {
+			add_building_construction = {
+			    type = civilian_factory
+			    level = 1
+			    construction_speed = 1.0
+			}
+		}
+	}
+
+	#The Denmark Treaty
+	focus = {
+		id = SWE_the_denmark_treaty
+		icon = GFX_SWE_the_denmark_treaty-262011
+		x = 3
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SWE_the_swedish_navy  }
+		mutually_exclusive = { focus = SWE_neutrality  }
+		ai_will_do = { factor = 70 }
+		completion_reward = {
+			GER = {
+				country_event = {
+			    id = denmark_treaty
+			    days = 10
+			    random = 50
+			    random_days = 10
+			}
+			
+			
+			
+			}
+			
+		}
+	}
+
+	#The Autonomy Question
+	focus = {
+		id = SWE_the_autonomy_question
+		icon = GFX_SWE_the_autonomy_question-628118
+		x = 0
+		y = 4
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SWE_improve_healthcare  }
+	}
+
+	#Integrate Karelia
+	focus = {
+		id = SWE_integrate_karelia
+		icon = GFX_goal_continuous_increase_nu
+		x = 8
+		y = 0
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		ai_will_do = { factor = 100 }
+		available = {
+			
+			
+			
+			owns_state = 213
+			
+			owns_state = 215
+			
+			owns_state = 216
+			
+			owns_state = 195
+			
+			
+		}
+		completion_reward = {
+			add_state_core = 213
+			
+			add_state_core = 215
+			
+			add_state_core = 216
+			
+			add_state_core = 195
+		}
+	}
+
+}

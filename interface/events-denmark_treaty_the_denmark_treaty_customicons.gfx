@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: The Denmark Treaty
+	SpriteType = { 
+		name = "denmark_treaty_the_denmark_treaty-628118"
+		texturefile = "gfx/interface/events/the_denmark_treaty-event/denmark_treaty_the_denmark_treaty-628118.dds"
+	}
+
+ 
+ }

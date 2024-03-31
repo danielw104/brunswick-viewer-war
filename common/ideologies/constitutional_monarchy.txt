@@ -1,0 +1,31 @@
+ideologies = {
+	constitutional_monarchy = {
+		types = {
+			executive_constitutional_monarchy = { can_be_randomly_selected = no }
+			ceremonial_constitutional_monarchy = { can_be_randomly_selected = no }
+		}
+		dynamic_faction_names = {
+		}
+		color = { 92 105 190 }
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		faction_modifiers = {
+		}
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+		modifiers = {
+			join_faction_tension = 20
+			lend_lease_tension = 15
+			send_volunteers_tension = 20
+			annex_cost_factor = 5
+		}
+		ai_neutral = yes
+	}
+}

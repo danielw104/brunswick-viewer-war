@@ -1,0 +1,278 @@
+#Category allowed for GXC YUN SHX XSM
+
+ ###  ##  ###   ##  #  # ###  ## ###      ## #  # ###  ###   ##  ###  ### 
+   # #  # #  # #  # ## # #   #   #       #   #  # #  # #  # #  # #  #  #  
+   # #### ###  #### # ## ##   #  ##       #  #  # ###  ###  #  # ###   #  
+#  # #  # #    #  # #  # #     # #         # #  # #    #    #  # #  #  #  
+ ##  #  # #    #  # #  # ### ##  ###     ##   ##  #    #     ##  #  #  #  
+
+CHI_seek_japanese_support = {
+
+	CHI_internal_party_support_sultanism = {
+
+		icon = generic_political_discourse
+
+		available = {
+			is_subject = no
+		}
+
+		visible = {
+			has_completed_focus = CHI_seek_japanese_support
+			JAP = { has_government = sultanism }
+		}
+
+		fire_only_once = no
+
+		days_remove = 90
+
+		cost = 35
+
+		modifier = {
+			sultanism_drift = 0.05
+			stability_weekly = -0.005
+			political_power_gain = -0.5
+		}
+
+		complete_effect = {
+
+		}
+	}
+
+	CHI_aggresive_prosecution_of_opposition_sultanism = {
+
+		icon = generic_civil_support
+
+		available = {
+			has_equipment = { infantry_equipment > 499 }
+			is_subject = no
+		}
+
+		visible = {
+			has_completed_focus = CHI_seek_japanese_support
+			JAP = { has_government = sultanism }
+		}
+
+		fire_only_once = no
+
+		days_remove = 90
+
+		cost = 0
+
+		modifier = {
+			sultanism_drift = 0.1
+			stability_weekly = -0.01
+		}
+
+		remove_effect = {
+
+		}
+
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -500
+			}
+		}
+	}
+
+	CHI_internal_party_support_eurasianism = {
+
+		icon = generic_political_discourse
+
+		available = {
+			is_subject = no
+		}
+
+		visible = {
+			has_completed_focus = CHI_seek_japanese_support
+			JAP = { has_government = eurasianism }
+		}
+
+		fire_only_once = no
+
+		days_remove = 90
+
+		cost = 35
+
+		modifier = {
+			eurasianism_drift = 0.05
+			stability_weekly = -0.005
+			political_power_gain = -0.5
+		}
+
+		complete_effect = {
+
+		}
+	}
+
+	CHI_aggresive_prosecution_of_opposition_eurasianism = {
+
+		icon = generic_civil_support
+
+		available = {
+			has_equipment = { infantry_equipment > 499 }
+			is_subject = no
+		}
+
+		visible = {
+			has_completed_focus = CHI_seek_japanese_support
+			JAP = { has_government = eurasianism }
+		}
+
+		fire_only_once = no
+
+		days_remove = 90
+
+		cost = 0
+
+		modifier = {
+			eurasianism_drift = 0.1
+			stability_weekly = -0.01
+		}
+
+		remove_effect = {
+
+		}
+
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -500
+			}
+		}
+	}
+
+	CHI_internal_party_support_constitutional_monarchy = {
+
+		icon = generic_political_discourse
+
+		available = {
+			is_subject = no
+		}
+
+		visible = {
+			has_completed_focus = CHI_seek_japanese_support
+			JAP = { has_government = constitutional_monarchy }
+		}
+
+		fire_only_once = no
+
+		days_remove = 90
+
+		cost = 35
+
+		modifier = {
+			constitutional_monarchy_drift = 0.05
+			stability_weekly = -0.005
+			political_power_gain = -0.5
+		}
+
+		complete_effect = {
+
+		}
+	}
+
+	CHI_aggresive_prosecution_of_opposition_constitutional_monarchy = {
+
+		icon = generic_civil_support
+
+		available = {
+			has_equipment = { infantry_equipment > 499 }
+			is_subject = no
+		}
+
+		visible = {
+			has_completed_focus = CHI_seek_japanese_support
+			JAP = { has_government = constitutional_monarchy }
+		}
+
+		fire_only_once = no
+
+		days_remove = 90
+
+		cost = 0
+
+		modifier = {
+			constitutional_monarchy_drift = 0.1
+			stability_weekly = -0.01
+		}
+
+		remove_effect = {
+
+		}
+
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -500
+			}
+		}
+	}
+
+	CHI_internal_party_support_imperial_unionism = {
+
+		icon = generic_political_discourse
+
+		available = {
+			is_subject = no
+		}
+
+		visible = {
+			has_completed_focus = CHI_seek_japanese_support
+			JAP = { has_government = imperial_unionism }
+		}
+
+		fire_only_once = no
+
+		days_remove = 90
+
+		cost = 35
+
+		modifier = {
+			imperial_unionism_drift = 0.05
+			stability_weekly = -0.005
+			political_power_gain = -0.5
+		}
+
+		complete_effect = {
+
+		}
+	}
+
+	CHI_approach_japan = {
+
+		icon = jap_pacific_guardian
+
+		available = {
+			is_subject = no
+			if = {
+				limit = { JAP = { has_government = sultanism } }
+				sultanism > 0.4
+			}
+			if = {
+				limit = { JAP = { has_government = imperial_unionism } }
+				imperial_unionism > 0.4
+			}
+			if = {
+				limit = { JAP = { has_government = eurasianism } }
+				eurasianism > 0.4
+			}
+			if = {
+				limit = { JAP = { has_government = constitutional_monarchy } }
+				constitutional_monarchy > 0.4
+			}
+		}
+
+		visible = {
+			has_completed_focus = CHI_seek_japanese_support
+		}
+
+		fire_only_once = yes
+
+		complete_effect = {
+			JAP = { country_event = wtt_warlord.1 }
+			add_stability = 0.2
+			add_political_power = 100
+		}
+	}
+}

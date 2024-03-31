@@ -1,0 +1,15 @@
+spriteTypes = { 
+	##Icon For: Protesters Arm Themselves!
+	SpriteType = { 
+		name = "SPV_protesters_arm_themselves-633098"
+		texturefile = "gfx/interface/events/spanish_violence-event/SPV_protesters_arm_themselves-633098.dds"
+	}
+
+	##Icon For: Barcelona Massacre
+	SpriteType = { 
+		name = "SPV_barcelona_massacre-633099"
+		texturefile = "gfx/interface/events/spanish_violence-event/SPV_barcelona_massacre-633099.dds"
+	}
+
+ 
+ }

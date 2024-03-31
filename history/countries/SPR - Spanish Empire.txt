@@ -1,0 +1,33 @@
+﻿oob = "SPR_1936"
+capital = 1
+set_research_slots = 4
+set_stability = 55
+set_war_support = 60
+set_convoys = 130
+
+
+add_ideas = {
+	volunteer_only
+	civilian_economy
+InE_instability_in_the_empire
+InE_oppressing_minorities
+}
+
+	recruit_character = jaxonhumblenegotiatorramazona
+
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = imperial_unionism
+	last_election = "1935.2.16"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	sultanism = 0
+	constitutional_monarchy = 100
+	monarchism = 0
+}
+
+recruit_character = juan_carlos_i
+

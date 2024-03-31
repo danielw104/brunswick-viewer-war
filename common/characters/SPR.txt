@@ -1,0 +1,17 @@
+characters = {
+#Create country leader - Juan Carlos I
+juan_carlos_i = {
+	name = juan_carlos_i
+	portraits = {
+		civilian = {
+			#Custom image for Juan Carlos I
+			large = "/gfx/leaders/SPR/gvOESGsH-629291.dds"
+		}
+	}
+	country_leader = {
+		expire = "1965.1.1"
+		ideology = executive_constitutional_monarchy
+		traits = {  dislikes_germany tenacious_negotiator constitutional_monarch_minor political_manipulator }
+	}
+}
+}

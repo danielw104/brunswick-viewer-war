@@ -1,0 +1,129 @@
+ideas = {
+	mobilization_laws = {
+}
+	economy = {
+}
+	political_advisor = {
+		universe_phil = {
+			allowed = {
+				tag = SWE
+			}
+			traits = { autocratic_imperialist army_chief_defensive_3 navy_naval_air_defense_3 staunch_monarchist}
+			picture = "YvtqHKyb-1289"
+		}
+}
+	tank_manufacturer = {
+		imperial_tanks = {
+			allowed = {
+				tag = SWE
+			}
+			traits = { tank_manufacturer}
+			picture = "cyOfgJuz-1365"
+		}
+}
+	naval_manufacturer = {
+		imperial_defense = {
+			allowed = {
+				tag = SWE
+			}
+			traits = { coastal_defence_naval_manufacturer}
+			picture = "FhxinHWp-2085"
+		}
+		imperial_dominance = {
+			allowed = {
+				tag = SWE
+			}
+			traits = { atlantic_fleet_naval_manufacturer naval_manufacturer}
+			picture = "OZVnMwIg-1086"
+		}
+}
+	aircraft_manufacturer = {
+		imperial_aircrafts = {
+			allowed = {
+				tag = SWE
+			}
+			traits = { aircraft_manufacturer light_aircraft_manufacturer naval_aircraft_manufacturer}
+			picture = "MjocEAxi-1251"
+		}
+}
+	materiel_manufacturer = {
+		imperial_materials = {
+			allowed = {
+				tag = SWE
+			}
+			traits = { support_equipment_manufacturer}
+			picture = "GfxhuvIF-1470"
+		}
+}
+	industrial_concern = {
+		imperial_industry = {
+			allowed = {
+				tag = SWE
+			}
+			traits = { industrial_concern}
+			picture = "YqOHUhIM-1750"
+		}
+		imperial_electronics = {
+			allowed = {
+				tag = SWE
+			}
+			traits = { electronics_concern}
+			picture = "kDAnEWMS-1450"
+		}
+}
+	theorist = {
+		universe_phil = {
+			allowed = {
+				tag = SWE
+			}
+			traits = { military_theorist blitzkrieg_theorist}
+			ledger = army
+			picture = "YvtqHKyb-1289"
+		}
+		universe_phil = {
+			allowed = {
+				tag = SWE
+			}
+			traits = { naval_theorist}
+			ledger = navy
+			picture = "YvtqHKyb-1289"
+		}
+}
+	army_chief = {
+		universe_phil = {
+			allowed = {
+				tag = SWE
+			}
+			traits = { army_chief_defensive_3 army_chief_offensive_2}
+			picture = "YvtqHKyb-1289"
+		}
+}
+	navy_chief = {
+		universe_phil = {
+			allowed = {
+				tag = SWE
+			}
+			traits = { navy_chief_naval_aviation_3 navy_chief_commerce_raiding_1 navy_chief_reform_2 navy_chief_maneuver_2}
+			picture = "YvtqHKyb-1289"
+		}
+}
+	air_chief = {
+		universe_phil = {
+			allowed = {
+				tag = SWE
+			}
+			traits = { air_chief_reform_1 air_chief_safety_3 air_chief_night_operations_2 air_chief_ground_support_3 air_chief_all_weather_2}
+			picture = "YvtqHKyb-1289"
+		}
+}
+	high_command = {
+		universe_phil = {
+			allowed = {
+				tag = SWE
+			}
+			traits = { army_chief_defensive_3 army_chief_offensive_1 army_chief_drill_1 army_chief_reform_3 army_chief_organizational_3 army_chief_planning_3 army_chief_morale_1}
+			ledger = army
+			picture = "YvtqHKyb-1289"
+		}
+}
+}

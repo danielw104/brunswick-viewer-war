@@ -1,0 +1,117 @@
+add_namespace = denmark_treaty_the_denmark_treaty
+
+#The Denmark Treaty
+country_event = {
+	id = denmark_treaty_the_denmark_treaty.1
+	title = denmark_treaty_the_denmark_treaty.1.t
+	desc = denmark_treaty_the_denmark_treaty.1.d
+
+	picture = denmark_treaty_the_denmark_treaty-628118
+	fire_only_once = yes
+	is_triggered_only = yes
+	trigger = {
+		SWE = {
+	has_completed_focus = the_denmark_treaty
+
+
+}
+
+
+	}
+	hidden = yes
+	major = yes
+	option = {
+		name = denmark_treaty_the_denmark_treaty.1.a
+		trigger = {
+			SWE = {
+	has_completed_focus = 2175959
+
+
+}
+
+		}
+		ai_chance = { factor = 70 }
+		create_faction = Central Powers
+
+add_to_faction = SWE
+
+
+		hidden_effect = {
+			set_faction_leader = yes
+
+
+		}
+	}
+	option = {
+		name = denmark_treaty_the_denmark_treaty.1.b
+		trigger = {
+			SWE = {
+
+	has_completed_focus = 2175959
+
+}
+
+
+		}
+		ai_chance = { factor = 20 }
+		create_faction = Central Powers
+
+
+add_to_faction = SWE
+
+
+GER = {
+        transfer_state = 99
+        target = SWE
+                modifier = 50
+}
+
+GER = {
+        transfer_state = 37
+        target = SWE
+                modifier = 50
+}
+
+GER = {
+        transfer_state = 910
+        target = SWE
+                modifier = 50
+}
+
+GER = {
+        transfer_state = 911
+        target = SWE
+                modifier = 50
+}
+		hidden_effect = {
+			
+
+set_faction_leader = yes
+
+
+		}
+	}
+	option = {
+		name = denmark_treaty_the_denmark_treaty.1.c
+		trigger = {
+			SWE = {
+	has_completed_focus = 2175959
+
+
+}
+		}
+		ai_chance = { factor = 10 }
+		
+		hidden_effect = {
+			SWE = {
+	create_wargoal = { 
+    target = GER
+    type = annex_states
+                data = { 910 911 99 37 }
+}
+
+
+
+		}
+	}
+}

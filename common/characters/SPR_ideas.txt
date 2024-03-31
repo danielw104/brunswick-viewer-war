@@ -1,0 +1,17 @@
+characters = {	jaxonhumblenegotiatorramazona = {
+		name = jaxonhumblenegotiatorramazona
+		portraits = {
+			army = {
+			small = "gfx/interface/ideas/SPR/DpbikThg-122523.dds"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = jaxonhumblenegotiatorramazona
+			allowed = {
+				original_tag = SPR
+			}
+			traits = { tenacious_negotiator constitutional_monarch popular_figurehead2}
+		}
+	}
+}

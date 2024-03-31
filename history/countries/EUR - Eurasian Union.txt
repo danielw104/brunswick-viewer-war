@@ -1,0 +1,36 @@
+﻿oob = "EUR_1936"
+capital = 578
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+set_convoys = 0
+
+
+add_ideas = {
+	extensive_conscription
+	civilian_economy
+}
+
+
+#Starting tech
+set_technology = {
+	advanced_machine_tools = 1
+	mtg_tank_landing_craft = 1
+	artillery1 = 1
+}
+
+#Politics for 1936.1.1
+set_politics = {
+	ruling_party = imperial_unionism
+	last_election = "1935.11.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	eurasianism = 0
+	eurasianism = 0
+	constitutional_monarchy = 0
+	monarchism = 0
+}
+
+

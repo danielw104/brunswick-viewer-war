@@ -1,0 +1,100 @@
+add_namespace = SPV_spanish_violence
+
+#Protesters Arm Themselves!
+country_event = {
+	id = SPV_spanish_violence.1
+	title = SPV_spanish_violence.1.t
+	desc = SPV_spanish_violence.1.d
+
+	picture = SPV_protesters_arm_themselves-633098
+	fire_only_once = yes
+	trigger = {
+		SPR = {
+	has_completed_focus = SPR_put_down_the_protesters_with_force
+
+
+}
+
+	}
+	mean_time_to_happen = { days = 15 }
+	timeout_days = 10
+	option = {
+		name = SPV_spanish_violence.1.a
+		trigger = {
+			
+SPR = {
+	has_completed_focus = Put_Down_the Protesters_with_Force
+
+
+}
+
+		}
+		ai_chance = { factor = 33 }
+		
+SPR = {
+	news_event = {
+    id = SPV_spanish_violence.2
+    days = 10
+    random = 0
+    random_days = 10
+}
+
+
+
+}
+
+		hidden_effect = {
+			SPR = {
+	add_manpower = -122
+
+
+}
+
+		}
+	}
+	option = {
+		name = SPV_spanish_violence.1.b
+		trigger = {
+			
+		}
+		ai_chance = { factor = 33 }
+		
+		hidden_effect = {
+			
+		}
+	}
+	option = {
+		name = SPV_spanish_violence.1.c
+		trigger = {
+			
+		}
+		ai_chance = { factor = 33 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
+
+#Barcelona Massacre
+country_event = {
+	id = SPV_spanish_violence.2
+	title = SPV_spanish_violence.2.t
+	desc = SPV_spanish_violence.2.d
+
+	picture = SPV_barcelona_massacre-633099
+	fire_only_once = yes
+	mean_time_to_happen = { days = 5 }
+	major = yes
+	option = {
+		name = SPV_spanish_violence.2.a
+		trigger = {
+			
+		}
+		ai_chance = { factor = 1 }
+		
+		hidden_effect = {
+			
+		}
+	}
+}
