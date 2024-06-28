@@ -2,9 +2,10 @@ ideologies = {
 	imperial_unionism = {
 		types = {
 			nordic_unionism = { can_be_randomly_selected = no }
-			WrHOCXUh = {  }
+			BKuFcZyX = {  }
 		}
 		dynamic_faction_names = {
+			"faction_imperial_unionism_imperial_league"
 		}
 		color = { 49 46 49 }
 		can_host_government_in_exile = yes

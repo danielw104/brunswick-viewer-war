@@ -42,4 +42,6 @@ set_popularities = {
 recruit_character = gustaf_v
 recruit_character = gustaf_v
 recruit_character = gustaf_v
+recruit_character = universephil
+recruit_character = universephil
 

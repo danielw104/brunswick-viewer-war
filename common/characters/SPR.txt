@@ -5,7 +5,7 @@ juan_carlos_i = {
 	portraits = {
 		civilian = {
 			#Custom image for Juan Carlos I
-			large = "/gfx/leaders/SPR/gvOESGsH-629291.dds"
+			large = "/gfx/leaders/SPR/IzyWiEuT-629291.dds"
 		}
 	}
 	country_leader = {

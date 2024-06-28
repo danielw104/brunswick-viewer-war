@@ -9,7 +9,7 @@ ideas = {
 				tag = SPR
 			}
 			traits = { tenacious_negotiator constitutional_monarch popular_figurehead2}
-			picture = "DpbikThg-122523"
+			picture = "TUIQBEHd-122523"
 		}
 }
 	tank_manufacturer = {

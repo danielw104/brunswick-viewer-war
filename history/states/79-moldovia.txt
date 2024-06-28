@@ -15,6 +15,7 @@ state = {
 		victory_points = {
 			6706 1 
 		}
+		add_core_of = POL
 		owner = TUR
 		controller = TUR
 	}

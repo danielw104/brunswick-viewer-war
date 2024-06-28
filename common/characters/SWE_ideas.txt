@@ -2,7 +2,7 @@ characters = {	universe_phil = {
 		name = universe_phil
 		portraits = {
 			army = {
-			small = "gfx/interface/ideas/SWE/YvtqHKyb-1289.dds"
+			small = "gfx/interface/ideas/SWE/SyLaXcME-1289.dds"
 			}
 		}
 		advisor = {
@@ -18,7 +18,7 @@ characters = {	universe_phil = {
 		name = universe_phil
 		portraits = {
 			army = {
-			small = "gfx/interface/ideas/SWE/YvtqHKyb-1289.dds"
+			small = "gfx/interface/ideas/SWE/SyLaXcME-1289.dds"
 			}
 		}
 		advisor = {
@@ -35,7 +35,7 @@ characters = {	universe_phil = {
 		name = universe_phil
 		portraits = {
 			army = {
-			small = "gfx/interface/ideas/SWE/YvtqHKyb-1289.dds"
+			small = "gfx/interface/ideas/SWE/SyLaXcME-1289.dds"
 			}
 		}
 		advisor = {
@@ -52,7 +52,7 @@ characters = {	universe_phil = {
 		name = universe_phil
 		portraits = {
 			army = {
-			small = "gfx/interface/ideas/SWE/YvtqHKyb-1289.dds"
+			small = "gfx/interface/ideas/SWE/SyLaXcME-1289.dds"
 			}
 		}
 		advisor = {
@@ -68,7 +68,7 @@ characters = {	universe_phil = {
 		name = universe_phil
 		portraits = {
 			army = {
-			small = "gfx/interface/ideas/SWE/YvtqHKyb-1289.dds"
+			small = "gfx/interface/ideas/SWE/SyLaXcME-1289.dds"
 			}
 		}
 		advisor = {
@@ -84,7 +84,7 @@ characters = {	universe_phil = {
 		name = universe_phil
 		portraits = {
 			army = {
-			small = "gfx/interface/ideas/SWE/YvtqHKyb-1289.dds"
+			small = "gfx/interface/ideas/SWE/SyLaXcME-1289.dds"
 			}
 		}
 		advisor = {
@@ -100,7 +100,7 @@ characters = {	universe_phil = {
 		name = universe_phil
 		portraits = {
 			army = {
-			small = "gfx/interface/ideas/SWE/YvtqHKyb-1289.dds"
+			small = "gfx/interface/ideas/SWE/SyLaXcME-1289.dds"
 			}
 		}
 		advisor = {

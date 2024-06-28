@@ -2,7 +2,7 @@ characters = {	jaxonhumblenegotiatorramazona = {
 		name = jaxonhumblenegotiatorramazona
 		portraits = {
 			army = {
-			small = "gfx/interface/ideas/SPR/DpbikThg-122523.dds"
+			small = "gfx/interface/ideas/SPR/TUIQBEHd-122523.dds"
 			}
 		}
 		advisor = {

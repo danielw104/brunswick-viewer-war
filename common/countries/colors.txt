@@ -17,6 +17,10 @@ SPR = {
 	color_ui = rgb { 210 173 95 }
 }
 GER = {
-	color = rgb { 0 0 0 }
-	color_ui = rgb { 0 0 0 }
+	color = rgb { 70 92 91 }
+	color_ui = rgb { 70 92 91 }
+}
+POL = {
+	color = rgb { 255 125 255 }
+	color_ui = rgb { 255 125 255 }
 }

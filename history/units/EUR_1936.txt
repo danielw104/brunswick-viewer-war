@@ -1,10 +1,316 @@
 #Create units
 division_template = {
-	name = "Example Division"
+	name = "E"
 	division_names_group = "EUR_DIV_0_0"
+	regiments = {
+		cavalry = { x = 0 y = 0}
+		heavy_armor = { x = 0 y = 1}
+	}
+	support = {
+	}
 
 }
 
 #Spawn units
 units = {
+	division= {
+		name = "1st E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "2nd E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "3rd E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "4th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "5th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "6th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "7th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "8th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "9th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "10th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "11th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "12th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "13th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "14th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "15th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "16th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "17th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "18th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "19th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "20th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "21st E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "22nd E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "23rd E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "24th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "25th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "26th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "27th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "28th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "29th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "30th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "31st E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "32nd E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "33rd E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "34th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "35th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "36th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "37th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "38th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "39th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "40th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "41st E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "42nd E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "43rd E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "44th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "45th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "46th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "47th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "48th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "49th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "50th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "51st E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "52nd E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "53rd E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "54th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "55th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "56th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "57th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "58th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "59th E"
+		location = 11340
+		division_template = "E"
+	}
+	division= {
+		name = "60th E"
+		location = 11340
+		division_template = "E"
+	}
 }

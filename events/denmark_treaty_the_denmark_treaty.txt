@@ -18,8 +18,7 @@ country_event = {
 
 
 	}
-	hidden = yes
-	major = yes
+	timeout_days = 14
 	option = {
 		name = denmark_treaty_the_denmark_treaty.1.a
 		trigger = {

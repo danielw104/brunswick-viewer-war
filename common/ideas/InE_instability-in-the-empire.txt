@@ -26,5 +26,18 @@ compliance_gain = -5%
 
 			}
 		}
+
+		InE_corrupt_justice = {
+			picture = InE_corrupt_justice-1505
+			modifier = {
+				political_power_growth > -1
+
+political_power_daily > -1
+
+stability_weekly = -0.01
+
+
+			}
+		}
 	}
 }

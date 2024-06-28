@@ -6,3 +6,19 @@ GER_DIV_0_0 = {	name = "Example Division"
 	}
 	fallback_name = "%d. Example Division"
 }
+GER_DIV_1_0 = {	name = "E"
+	for_countries = { GER }
+	can_use = { always = yes }
+	division_types = { 
+		"infantry" "motorized" }
+	}
+	fallback_name = "%d. E"
+}
+GER_DIV_2_0 = {	name = "E2"
+	for_countries = { GER }
+	can_use = { always = yes }
+	division_types = { 
+		"modern_armor" "anti_air_brigade" }
+	}
+	fallback_name = "%d. E2"
+}

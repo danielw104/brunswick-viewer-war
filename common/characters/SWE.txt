@@ -5,7 +5,7 @@ gustaf_v = {
 	portraits = {
 		civilian = {
 			#Custom image for Gustaf V
-			large = "/gfx/leaders/SWE/RkvmnuFy-628123.dds"
+			large = "/gfx/leaders/SWE/DPQYpHwi-628123.dds"
 		}
 	}
 	country_leader = {
@@ -21,7 +21,7 @@ gustaf_v = {
 	portraits = {
 		civilian = {
 			#Custom image for Gustaf V
-			large = "/gfx/leaders/SWE/cXAWtysw-628124.dds"
+			large = "/gfx/leaders/SWE/uIkhYPvy-628124.dds"
 		}
 	}
 	country_leader = {
@@ -37,7 +37,7 @@ gustaf_v = {
 	portraits = {
 		civilian = {
 			#Custom image for Gustaf V
-			large = "/gfx/leaders/SWE/oDwxBNMk-628124.dds"
+			large = "/gfx/leaders/SWE/zXGCxfyw-628124.dds"
 		}
 	}
 	country_leader = {
@@ -46,4 +46,45 @@ gustaf_v = {
 		traits = {  imperial_sanction patriot_king }
 	}
 }
+
+#Create military leader - UniversePhil
+	universephil = {
+		name = "universephil"
+		portraits = {
+			army = {
+				#Custom images for UniversePhil
+				large = "/gfx/leaders/SWE/universephil-10221.dds"
+				small = "/gfx/interface/ideas/SWE/universephil-10221.dds"
+			}
+		}
+		field_marshal = {
+			traits = { brilliant_strategist offensive_doctrine fast_planner organizer infantry_leader panzer_leader infantry_expert guerilla_fighter }
+			skill = 15
+			attack_skill = 10
+			defense_skill = 7
+			planning_skill = 15
+			logistics_skill = 5
+		legacy_id = 1281214820
+		}
+	}
+
+	universephil = {
+		name = "universephil"
+		portraits = {
+			army = {
+				#Custom images for UniversePhil
+				large = "/gfx/leaders/SWE/universephil-9589.dds"
+				small = "/gfx/interface/ideas/SWE/universephil-9589.dds"
+			}
+		}
+		navy_leader = {
+			traits = { brilliant_strategist offensive_doctrine fast_planner organizer infantry_leader panzer_leader infantry_expert guerilla_fighter }
+			skill = 15
+			attack_skill = 10
+			defense_skill = 7
+			maneuvering_skill = 15
+			coordination_skill = 5
+			legacy_id = 3281214820
+		}
+	}
 }

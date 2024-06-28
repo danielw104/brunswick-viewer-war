@@ -18,6 +18,9 @@ state = {
 			}
 
 		}
+		add_core_of = POL
+		owner = POL
+		controller = POL
 	}
 	provinces = {
 		9240 9340 10323 

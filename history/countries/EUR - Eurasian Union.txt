@@ -1,16 +1,23 @@
 ﻿oob = "EUR_1936"
 capital = 578
 set_research_slots = 3
-set_stability = 0.5
-set_war_support = 0.5
-set_convoys = 0
+set_stability = 0.6
+set_war_support = 0.8
+set_convoys = 1
 
 
 add_ideas = {
 	extensive_conscription
-	civilian_economy
+	low_economic_mobilisation
+InE_oppressing_minorities
+InE_corrupt_justice
 }
 
+
+set_autonomy = {
+	target = ALA
+	autonomous_state = autonomy_reichskommissariat
+}
 
 #Starting tech
 set_technology = {
@@ -21,7 +28,7 @@ set_technology = {
 
 #Politics for 1936.1.1
 set_politics = {
-	ruling_party = imperial_unionism
+	ruling_party = eurasianism
 	last_election = "1935.11.26"
 	election_frequency = 60
 	elections_allowed = no
@@ -33,4 +40,6 @@ set_popularities = {
 	monarchism = 0
 }
 
+recruit_character = anton_denikin
+recruit_character = anton_denikin
 

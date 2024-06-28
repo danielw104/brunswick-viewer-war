@@ -128,10 +128,8 @@ focus_tree = {
 		completion_reward = {
 			GER = {
 				country_event = {
-			    id = denmark_treaty
-			    days = 10
-			    random = 50
-			    random_days = 10
+			    id = denmark_treaty_the_denmark_treaty.1
+			    days = 14
 			}
 			
 			
@@ -152,6 +150,7 @@ focus_tree = {
 			FOCUS_FILTER_POLITICAL
 		}
 		prerequisite = { focus = SWE_improve_healthcare  }
+		ai_will_do = { factor = 100 }
 	}
 
 	#Integrate Karelia
@@ -188,6 +187,117 @@ focus_tree = {
 			
 			add_state_core = 195
 		}
+	}
+
+	#Join the Central Powers
+	focus = {
+		id = SWE_join_the_central_powers
+		icon = GFX_goal_generic_alliance
+		x = 2
+		y = 7
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SWE_the_denmark_treaty  }
+		available = {
+			GER = {
+				is_ally_with = SWE
+			
+			
+			}
+			
+		}
+		bypass = {
+			GER = {
+				is_ally_with = SWE
+			
+			
+			}
+		}
+		select_effect = {
+add_war_support = 0.2
+
+
+}
+	}
+
+	#Conquer Denmark
+	focus = {
+		id = SWE_conquer_denmark
+		icon = GFX_SWE_conquer_denmark-645869
+		x = 4
+		y = 7
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = SWE_the_denmark_treaty  }
+		mutually_exclusive = { focus = SWE_join_the_central_powers  }
+		ai_will_do = { factor = 10 }
+		available = {
+			SWE = {
+				has_wargoal_against = {
+			    target = GER
+			    type = take_state
+			}
+			
+			
+			
+			}
+			
+		}
+		bypass = {
+			SWE = {
+				has_wargoal_against = {
+			    target = GER
+			    type = take_state
+			}
+			
+			
+			
+			}
+		}
+		will_lead_to_war_with = Germany
+	}
+
+	#Conquer Denmark
+	focus = {
+		id = SWE_conquer_denmark
+		icon = GFX_SWE_conquer_denmark-645869
+		x = 4
+		y = 7
+		cost = 1
+		search_filters = {
+			FOCUS_FILTER_ANNEXATION
+		}
+		prerequisite = { focus = SWE_the_denmark_treaty  }
+		mutually_exclusive = { focus = SWE_join_the_central_powers  }
+		ai_will_do = { factor = 10 }
+		available = {
+			SWE = {
+				has_wargoal_against = {
+			    target = GER
+			    type = take_state
+			}
+			
+			
+			
+			}
+			
+		}
+		bypass = {
+			SWE = {
+				has_wargoal_against = {
+			    target = GER
+			    type = take_state
+			}
+			
+			
+			
+			}
+		}
+		will_lead_to_war_with = Germany
 	}
 
 }

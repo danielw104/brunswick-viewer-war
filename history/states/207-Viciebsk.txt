@@ -12,6 +12,9 @@ state = {
 			air_base = 5
 		}
 		add_core_of = EUR
+		add_core_of = POL
+		owner = POL
+		controller = POL
 	}
 	provinces = {
 		323 3219 3331 6220 6249 6326 6371 9241 9323 11220 11241 

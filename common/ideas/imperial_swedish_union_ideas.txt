@@ -9,7 +9,7 @@ ideas = {
 				tag = SWE
 			}
 			traits = { autocratic_imperialist army_chief_defensive_3 navy_naval_air_defense_3 staunch_monarchist}
-			picture = "YvtqHKyb-1289"
+			picture = "SyLaXcME-1289"
 		}
 }
 	tank_manufacturer = {
@@ -18,7 +18,7 @@ ideas = {
 				tag = SWE
 			}
 			traits = { tank_manufacturer}
-			picture = "cyOfgJuz-1365"
+			picture = "xSosWOLz-1365"
 		}
 }
 	naval_manufacturer = {
@@ -27,14 +27,14 @@ ideas = {
 				tag = SWE
 			}
 			traits = { coastal_defence_naval_manufacturer}
-			picture = "FhxinHWp-2085"
+			picture = "DwEPIdlm-2085"
 		}
 		imperial_dominance = {
 			allowed = {
 				tag = SWE
 			}
 			traits = { atlantic_fleet_naval_manufacturer naval_manufacturer}
-			picture = "OZVnMwIg-1086"
+			picture = "NFxphAvV-1086"
 		}
 }
 	aircraft_manufacturer = {
@@ -43,7 +43,7 @@ ideas = {
 				tag = SWE
 			}
 			traits = { aircraft_manufacturer light_aircraft_manufacturer naval_aircraft_manufacturer}
-			picture = "MjocEAxi-1251"
+			picture = "fxkRsujH-1251"
 		}
 }
 	materiel_manufacturer = {
@@ -52,7 +52,7 @@ ideas = {
 				tag = SWE
 			}
 			traits = { support_equipment_manufacturer}
-			picture = "GfxhuvIF-1470"
+			picture = "jauvCFYf-1470"
 		}
 }
 	industrial_concern = {
@@ -61,14 +61,14 @@ ideas = {
 				tag = SWE
 			}
 			traits = { industrial_concern}
-			picture = "YqOHUhIM-1750"
+			picture = "dVaXowJk-1750"
 		}
 		imperial_electronics = {
 			allowed = {
 				tag = SWE
 			}
 			traits = { electronics_concern}
-			picture = "kDAnEWMS-1450"
+			picture = "QcalewXO-1450"
 		}
 }
 	theorist = {
@@ -78,7 +78,7 @@ ideas = {
 			}
 			traits = { military_theorist blitzkrieg_theorist}
 			ledger = army
-			picture = "YvtqHKyb-1289"
+			picture = "SyLaXcME-1289"
 		}
 		universe_phil = {
 			allowed = {
@@ -86,7 +86,7 @@ ideas = {
 			}
 			traits = { naval_theorist}
 			ledger = navy
-			picture = "YvtqHKyb-1289"
+			picture = "SyLaXcME-1289"
 		}
 }
 	army_chief = {
@@ -95,7 +95,7 @@ ideas = {
 				tag = SWE
 			}
 			traits = { army_chief_defensive_3 army_chief_offensive_2}
-			picture = "YvtqHKyb-1289"
+			picture = "SyLaXcME-1289"
 		}
 }
 	navy_chief = {
@@ -104,7 +104,7 @@ ideas = {
 				tag = SWE
 			}
 			traits = { navy_chief_naval_aviation_3 navy_chief_commerce_raiding_1 navy_chief_reform_2 navy_chief_maneuver_2}
-			picture = "YvtqHKyb-1289"
+			picture = "SyLaXcME-1289"
 		}
 }
 	air_chief = {
@@ -113,7 +113,7 @@ ideas = {
 				tag = SWE
 			}
 			traits = { air_chief_reform_1 air_chief_safety_3 air_chief_night_operations_2 air_chief_ground_support_3 air_chief_all_weather_2}
-			picture = "YvtqHKyb-1289"
+			picture = "SyLaXcME-1289"
 		}
 }
 	high_command = {
@@ -123,7 +123,7 @@ ideas = {
 			}
 			traits = { army_chief_defensive_3 army_chief_offensive_1 army_chief_drill_1 army_chief_reform_3 army_chief_organizational_3 army_chief_planning_3 army_chief_morale_1}
 			ledger = army
-			picture = "YvtqHKyb-1289"
+			picture = "SyLaXcME-1289"
 		}
 }
 }

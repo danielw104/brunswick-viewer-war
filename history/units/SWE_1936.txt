@@ -1,0 +1,166 @@
+#Create units
+division_template = {
+	name = "E"
+	division_names_group = "SWE_DIV_0_0"
+	regiments = {
+		light_armor = { x = 0 y = 0}
+		infantry = { x = 0 y = 1}
+	}
+	support = {
+	}
+
+}
+
+#Spawn units
+units = {
+	division= {
+		name = "1st E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "2nd E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "3rd E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "4th E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "5th E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "6th E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "7th E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "8th E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "9th E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "10th E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "11th E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "12th E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "13th E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "14th E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "15th E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "16th E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "17th E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "18th E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "19th E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "20th E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "21st E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "22nd E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "23rd E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "24th E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "25th E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "26th E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "27th E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "28th E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "29th E"
+		location = 3106
+		division_template = "E"
+	}
+	division= {
+		name = "30th E"
+		location = 3106
+		division_template = "E"
+	}
+}

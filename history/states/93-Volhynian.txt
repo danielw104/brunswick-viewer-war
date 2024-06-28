@@ -12,6 +12,9 @@ state = {
 			infrastructure = 3
 
 		}
+		add_core_of = POL
+		owner = POL
+		controller = POL
 	}
 	provinces = {
 		422 474 513 572 3412 6435 6520 6557 11441 11543 

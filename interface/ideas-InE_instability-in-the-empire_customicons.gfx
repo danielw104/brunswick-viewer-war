@@ -11,5 +11,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/instability-in-the-empire-ideas/InE_oppressing_minorities-1236.dds"
 	}
 
+	##Icon For: Corrupt Justice
+	SpriteType = { 
+		name = "GFX_idea_InE_corrupt_justice-1505"
+		texturefile = "gfx/interface/ideas/instability-in-the-empire-ideas/InE_corrupt_justice-1505.dds"
+	}
+
  
  }

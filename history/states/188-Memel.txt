@@ -19,6 +19,9 @@ state = {
 			#controller = GER
 		}
 		add_core_of = GER
+		add_core_of = POL
+		owner = POL
+		controller = POL
 	}
 	provinces = {
 		3288 	

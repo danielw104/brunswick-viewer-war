@@ -11,6 +11,9 @@ state = {
 			infrastructure = 3 
 		}
 		add_core_of = EUR
+		add_core_of = POL
+		owner = POL
+		controller = POL
 	}
 	provinces = {
 		511 559 3557 6495 6507 6578 6605 9413 9519 11504 

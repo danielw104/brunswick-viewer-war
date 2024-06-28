@@ -1,1 +1,33 @@
-characters = {}
+characters = {
+#Create country leader - Anton Denikin
+anton_denikin = {
+	name = anton_denikin
+	portraits = {
+		civilian = {
+			#Custom image for Anton Denikin
+			large = "/gfx/leaders/EUR/RTJGczFZ-679583.dds"
+		}
+	}
+	country_leader = {
+		expire = "1947.7.7"
+		ideology = european_eurasianism
+		traits = {  dictator anti_communist }
+	}
+}
+
+#Create country leader - Anton Denikin
+anton_denikin = {
+	name = anton_denikin
+	portraits = {
+		civilian = {
+			#Custom image for Anton Denikin
+			large = "/gfx/leaders/EUR/RTJGczFZ-679583.dds"
+		}
+	}
+	country_leader = {
+		expire = "1947.7.7"
+		ideology = european_eurasianism
+		traits = {  dictator anti_communist }
+	}
+}
+}

@@ -1,1 +1,33 @@
-characters = {}
+characters = {
+#Create country leader - Wilhelm II
+wilhelm_ii = {
+	name = wilhelm_ii
+	portraits = {
+		civilian = {
+			#Custom image for Wilhelm II
+			large = "/gfx/leaders/GER/IAJsbrEV-9791.dds"
+		}
+	}
+	country_leader = {
+		expire = "1941.06.04"
+		ideology = executive_constitutional_monarchy
+		traits = { anti_communist anti_democrat autocratic_imperialist  constitutional_monarch }
+	}
+}
+
+#Create country leader - Wilhelm II
+wilhelm_ii = {
+	name = wilhelm_ii
+	portraits = {
+		civilian = {
+			#Custom image for Wilhelm II
+			large = "/gfx/leaders/GER/XUQywxIZ-9791.dds"
+		}
+	}
+	country_leader = {
+		expire = "1941.06.04"
+		ideology = absolute_monarchy
+		traits = {  divisive_absolute_monarch anti_communist anti_democrat autocratic_imperialist }
+	}
+}
+}

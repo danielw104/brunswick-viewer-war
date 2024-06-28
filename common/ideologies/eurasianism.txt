@@ -6,7 +6,7 @@ ideologies = {
 		}
 		dynamic_faction_names = {
 		}
-		color = { 180 112 255 }
+		color = { 182 69 255 }
 		can_host_government_in_exile = yes
 		can_collaborate = yes
 		war_impact_on_world_tension = 10
@@ -15,6 +15,8 @@ ideologies = {
 			faction_trade_opinion_factor = 5
 		}
 		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
 			can_send_volunteers = yes
 			can_puppet = yes
 		}

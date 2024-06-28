@@ -4,7 +4,279 @@ division_template = {
 	division_names_group = "GER_DIV_0_0"
 
 }
+division_template = {
+	name = "E"
+	division_names_group = "GER_DIV_1_0"
+	regiments = {
+		infantry = { x = 0 y = 0}
+		motorized = { x = 0 y = 1}
+	}
+	support = {
+	}
+
+}
+division_template = {
+	name = "E2"
+	division_names_group = "GER_DIV_2_0"
+	regiments = {
+		modern_armor = { x = 0 y = 0}
+		anti_air_brigade = { x = 0 y = 1}
+	}
+	support = {
+	}
+
+}
 
 #Spawn units
 units = {
+	division= {
+		name = "1st E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "2nd E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "3rd E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "4th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "5th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "6th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "7th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "8th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "9th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "10th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "11th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "12th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "13th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "14th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "15th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "16th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "17th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "18th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "19th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "20th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "21st E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "22nd E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "23rd E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "24th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "25th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "26th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "27th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "28th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "29th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "30th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "31st E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "32nd E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "33rd E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "34th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "35th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "36th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "37th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "38th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "39th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "40th E"
+		location = 564
+		division_template = "E"
+	}
+	division= {
+		name = "41st E2"
+		location = 6521
+		division_template = "E2"
+	}
+	division= {
+		name = "42nd E2"
+		location = 6521
+		division_template = "E2"
+	}
+	division= {
+		name = "43rd E2"
+		location = 6521
+		division_template = "E2"
+	}
+	division= {
+		name = "44th E2"
+		location = 6521
+		division_template = "E2"
+	}
+	division= {
+		name = "45th E2"
+		location = 6521
+		division_template = "E2"
+	}
+	division= {
+		name = "46th E2"
+		location = 6521
+		division_template = "E2"
+	}
+	division= {
+		name = "47th E2"
+		location = 6521
+		division_template = "E2"
+	}
+	division= {
+		name = "48th E2"
+		location = 6521
+		division_template = "E2"
+	}
+	division= {
+		name = "49th E2"
+		location = 6521
+		division_template = "E2"
+	}
+	division= {
+		name = "50th E2"
+		location = 6521
+		division_template = "E2"
+	}
 }
